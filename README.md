@@ -51,7 +51,7 @@ npx tsx src/index.ts
 |-----------|-----------|
 | **Servidor** | http://localhost:3000/ |
 | **Swagger** | http://localhost:3000/api-docs/ |
-| **Ping** | http://localhost:3000/api/ping |
+| **Ping/Pong** | http://localhost:3000/api/ping |
 | **Conexão** | http://localhost:3000/api/test-db |
 | **Health** | http://localhost:3000/api/health |
 
