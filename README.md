@@ -34,6 +34,7 @@ Criar usuario no site API omdb e copiar o **Chave Key** para poder fazer consult
 
 #### 🔄 Executar a aplicação
 
+#### 📁 Backend
 VSCode Terminal [1]
 ```bash
 npm install 
@@ -57,10 +58,13 @@ npx tsx src/index.ts
 | Metodo: POST | http://localhost:3000/api/auth/register |
 | Metodo: POST | http://localhost:3000/api/auth/login |
 
+#### 📁 Frontend 
 VSCode Terminal [2]
-//Frontend 
+```bash
 npm run dev
-http://localhost:5173/
+```
+
+O Projeto é Frontend é executado em **http://localhost:5173/**
 
 #### 🧪 Executar Jest 
 VSCode Terminal [3]
