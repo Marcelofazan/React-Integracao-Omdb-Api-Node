@@ -66,15 +66,15 @@ npm run dev
 
 O Projeto é Frontend é executado em **http://localhost:5173/**
 
-#### 🧪 Executar EndPoints
+#### 🧪 Executar Testes
 
-#### Executar Jest
+#### Jest
 VSCode Terminal [3]
 ```bash
 npx jest
 ```
 
-#### Executar Postman
+#### Postman
 
 **1 -Registrar**
 - Enviar POST / Paciente: **http://localhost:3000/api/auth/register**, selecionar Guia Body -> escolher RAW e enviar o seguinte Content-Type: application/json 
