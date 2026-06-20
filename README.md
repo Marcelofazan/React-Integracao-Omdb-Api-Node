@@ -54,7 +54,7 @@ VSCode Terminal [3]
 npx jest
 ```
 
-##### ⚙️ Necessário Configurar SQL-Server IP Estático  
+##### ⚙️ Configurar SQL-Server IP Estático  
 
 O SQLSERVER funcionária na porta **TCP/IP 1435** para não gerar conflitos com a porta padrão **1433**
 
