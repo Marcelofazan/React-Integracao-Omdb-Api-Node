@@ -14,7 +14,7 @@ Exemplo de integração com Api OMDb em React 19 e Node.js com autenticação Jw
 
 #### 💬 Requisitos do Projeto
 - Criar usuario no site API OMDb e copiar o **Chave Key** para poder fazer consultas da API [OMDb API](https://www.omdbapi.com/)
-- Editar Arquivo .env
+- Necessário configurar arquivo **.env**
 
 #### 🔄 Executar a aplicação
 
