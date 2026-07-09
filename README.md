@@ -16,6 +16,17 @@ Exemplo de integração com Api OMDb em React 19 e Node.js com autenticação Jw
 - Criar usuario no site API OMDb e copiar o **Chave Key** para poder fazer consultas da API [OMDb API](https://www.omdbapi.com/)
 - Necessário configurar arquivo **.env**
 
+- Modifique alterando [DB_PASSWORD] , [SEU_KEY_OMDb] e [SEU_JWT_SECRET_KEY] no arquivo **.env** .
+```bash
+DB_HOST=127.0.0.1
+DB_PORT=1435
+DB_USER=sa
+DB_PASSWORD=[SUA_SENHA]
+APP_DATABASE=FilmesDB
+OMDB_API_KEY=[SEU_KEY_OMDb]
+JWT_SECRET=[SEU_JWT_SECRET_KEY]
+```
+
 #### 🔄 Executar a aplicação
 
 ## 📁 Backend
