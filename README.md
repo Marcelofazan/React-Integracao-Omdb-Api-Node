@@ -5,7 +5,6 @@ Exemplo de integração com Api OMDb em React 19 e Node.js com autenticação Jw
 
 | Tecnologia | Descrição |
 |-----------|------------|
-| **.env** | Gerenciar variáveis de ambiente, garantindo segurança (não expor senhas/chaves) e flexibilidade entre ambientes (desenvolvimento, produção)|
 | **BCrypt** | Algoritmo de hashing criptográfico utilizado para armazenar senhas de forma segura |
 | **LocalStorage** | Armazenamento em cache de dados no navegador de forma persistente em pares de chave e valor |
 | **Jest** | Ferramenta framework de testes |
