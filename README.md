@@ -58,6 +58,27 @@ npm run dev
 
 O Projeto é Frontend é executado em **http://localhost:5173/**
 
+
+#### 🧪 Executar Endpoints 
+- Registrar Usuário
+```bash
+http://localhost:3000/api/auth/register
+{
+    "username" : "email@gmail.com",
+    "email" : "email@gmail.com",
+    "password" : "123123"
+}
+```
+
+- Autenticar Login
+```bash 
+http://localhost:3000/api/auth/login
+{
+    "email" : "email@gmail.com",
+    "password" : "123123"
+}
+```
+
 #### 🔍 Executar Testes Unitários
 
 VSCode Terminal [3]
@@ -82,6 +103,7 @@ O SQLSERVER funcionária na porta **TCP/IP 1435** para não gerar conflitos com 
 
 Confira sempre que necessário a porta no **SSMS (SQL Server Management Studio)**
 
+- SQL Server Management Studio
 ```bash
 SELECT 
     listener_id, 
@@ -89,5 +111,10 @@ SELECT
     port 
 FROM sys.dm_tcp_listener_states;
 ```
-
-
+- PowerShell 
+```bash
+# Saber a porta que o MSSQL esta rodando
+$RegPath = "HKLM:\SOFTWARE\Microsoft\Microsoft SQL Server\*\MSSQLServer\SuperSocketNetLib\Tcp\IPAll"
+$Porta = Get-ItemProperty -Path (Get-Item $RegPath).PSPath | Select-Object -ExpandProperty TcpPort
+Write-Host "A porta TCP configurada é: $Porta"
+```
